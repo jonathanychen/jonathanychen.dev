@@ -1,6 +1,6 @@
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai'
 
-const Footer = () => {
+const Socials = () => {
   return (
     <div className="w-full justify-between grid grid-cols-3 gap-10">
       <a href="">
@@ -24,4 +24,4 @@ const Footer = () => {
     </div>
   )
 }
-export default Footer;
+export default Socials;

@@ -36,8 +36,12 @@ const config: Config = {
           },
         }
       },
+      colors: {
+        darkblue: "#001432",
+      },
       animation: {
-        typing: "typing 2s steps(40), blink .7s 6"
+        typing: "typing 2s steps(40), blink .7s 6",
+        fadeIn: "fadeIn linear 2s",
       }
     },
   },
