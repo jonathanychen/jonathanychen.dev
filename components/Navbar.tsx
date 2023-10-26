@@ -8,6 +8,11 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-full">
             <ul className="hidden md:flex gap-x-6 text-neutral-400">
               <li>
+                <Link href="/" className="transition hover:text-white">
+                  <p>Home</p>
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="transition hover:text-white">
                   <p>About</p>
                 </Link>
