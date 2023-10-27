@@ -19,6 +19,24 @@ const config: Config = {
             width: "100%"
           }
         },
+        intro: {
+          "0%": {
+            width: "0%",
+            visibility: "hidden"
+          },
+          "30%": {
+            width: "0%",
+          },
+          "40%": {
+            width: "20%",
+          },
+          "70%": {
+            width: "20%"
+          },
+          "100%": {
+            width: "100%"
+          }
+        },
         blink: {
           "50%": {
             borderColor: "white"
@@ -42,6 +60,7 @@ const config: Config = {
       animation: {
         typing: "typing 2s steps(40), blink .7s 6",
         fadeIn: "fadeIn linear 2s",
+        intro: "intro 2s steps(40), blink .7s 6"
       }
     },
   },

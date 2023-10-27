@@ -1,4 +1,4 @@
-const Intro = () => {
+const IntroBlurb = () => {
   return (
     <>
       <p>
@@ -8,4 +8,4 @@ const Intro = () => {
     </>
   )
 }
-export default Intro;
+export default IntroBlurb;

@@ -18,13 +18,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="" className="transition hover:text-white">
+                <Link href="/projects" className="transition hover:text-white">
                   <p>Projects</p>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contacts" className="transition hover:text-white">
-                  <p>Contact</p>
                 </Link>
               </li>
             </ul>
