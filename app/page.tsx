@@ -1,7 +1,7 @@
 import IntroTypewriter from '@/components/IntroTypewriter'
 import IntroBlurb from '@/components/IntroBlurb'
 import Headshot from '@/components/Headshot'
-import LearnMore from '@/components/LearnMore'
+import Button from '@/components/Button'
 
 export default function Home() {
   return (
@@ -18,8 +18,9 @@ export default function Home() {
         <IntroBlurb/>
       </div>
 
-      <div className="relative flex place-items-center max-w-prose text-center">
-        <LearnMore/>
+      <div className="relative flex flex-col place-items-center max-w-prose text-center">
+        <Button url="/about" text="More about me"/>
+        <Button url="/projects" text="My projects"/>
       </div>
     </main>
   )

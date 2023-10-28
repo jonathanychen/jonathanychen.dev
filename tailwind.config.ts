@@ -52,7 +52,7 @@ const config: Config = {
           "100%": {
             opacity: "100%",
           },
-        }
+        },
       },
       colors: {
         darkblue: "#001432",
@@ -60,7 +60,7 @@ const config: Config = {
       animation: {
         typing: "typing 2s steps(40), blink .7s 6",
         fadeIn: "fadeIn linear 2s",
-        intro: "intro 2s steps(40), blink .7s 6"
+        intro: "intro 2.5s steps(40), blink .7s 6",
       }
     },
   },

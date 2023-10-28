@@ -13,13 +13,13 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="transition hover:text-white">
-                  <p>About</p>
+                <Link href="/projects" className="transition hover:text-white">
+                  <p>Projects</p>
                 </Link>
               </li>
               <li>
-                <Link href="/projects" className="transition hover:text-white">
-                  <p>Projects</p>
+                <Link href="/about" className="transition hover:text-white">
+                  <p>About</p>
                 </Link>
               </li>
             </ul>
