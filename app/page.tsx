@@ -1,7 +1,7 @@
 import IntroTypewriter from '@/components/IntroTypewriter'
 import IntroBlurb from '@/components/IntroBlurb'
 import Headshot from '@/components/Headshot'
-import Button from '@/components/Button'
+import ButtonLink from '@/components/ButtonLink'
 
 export default function Home() {
   return (
@@ -19,8 +19,8 @@ export default function Home() {
       </div>
 
       <div className="relative flex flex-col place-items-center max-w-prose text-center">
-        <Button url="/about" text="More about me"/>
-        <Button url="/projects" text="My projects"/>
+        <ButtonLink url="/about" text="More about me"/>
+        <ButtonLink url="/projects" text="My projects"/>
       </div>
     </main>
   )
