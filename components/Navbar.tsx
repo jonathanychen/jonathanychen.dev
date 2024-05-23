@@ -6,19 +6,19 @@ const Navbar = () => {
       <div className="flex flex-col items-center h-20 top-0">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
-            <ul className="hidden md:flex gap-x-6 text-neutral-400">
+            <ul className="hidden md:flex gap-x-6">
               <li>
-                <Link href="/" className="transition hover:text-white">
+                <Link href="/" className="transition">
                   <p>Home</p>
                 </Link>
               </li>
               <li>
-                <Link href="/projects" className="transition hover:text-white">
+                <Link href="/projects" className="transition">
                   <p>Projects</p>
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="transition hover:text-white">
+                <Link href="/about" className="transition">
                   <p>About</p>
                 </Link>
               </li>
