@@ -223,7 +223,7 @@ export default function Home() {
                 href="https://course.ccs.neu.edu/cs3500/"
                 className="underline ml-1"
               >
-                CS3500: Object-Oriented Design
+                CS3500: OOD
               </a>
               <MdOutlineArrowOutward
                 size={16}
