@@ -199,7 +199,7 @@ export default function Home() {
                 href="https://4700.network/docs/syllabus/"
                 className="underline ml-1"
               >
-                CS4700: Networks
+                CS4700
               </a>
               <MdOutlineArrowOutward
                 size={16}
@@ -223,7 +223,7 @@ export default function Home() {
                 href="https://course.ccs.neu.edu/cs3500/"
                 className="underline ml-1"
               >
-                CS3500: OOD
+                CS3500
               </a>
               <MdOutlineArrowOutward
                 size={16}
