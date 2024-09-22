@@ -90,7 +90,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col w-[77vw] md:w-[80vw] lg:w-[50vw] lg:pl-[1vw] h-fit lg:border-current lg:border-l-2">
+      <div className="flex flex-col w-[77vw] md:w-[80vw] lg:w-[50vw] lg:pl-[1vw] lg:h-fit lg:border-current lg:border-l-2">
         <div className="text-lg -top-[10vw]" id="education">
           EDUCATION
         </div>
