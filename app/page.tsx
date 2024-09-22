@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 export default function Home() {
   return (
-    <main className="lg:flex lg:flex-row h-screen w-screen p-[10vw] overflow-y-scroll scroll-smooth scroll-pt-[10vw]">
+    <main className="lg:flex lg:flex-row lg:h-screen w-screen p-[10vw] scroll-smooth scroll-pt-[10vw]">
       <div className="lg:h-fit w-[77vw] md:w-[80vw] lg:w-[45vw] lg:justify-between mb-[10vh] lg:sticky lg:top-0">
         <div className="flex flex-col mb-[5vh]">
           <h1>
