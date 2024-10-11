@@ -96,6 +96,21 @@ export default function Home() {
         </div>
 
         <div className="w-full divide-current mb-8">
+          <a href="https://illinois.edu/" className="flex flex-row group w-fit">
+            <strong className="text-xl">
+              University of Illinois Urbana-Champaign
+            </strong>
+            <MdOutlineArrowOutward
+              size={16}
+              className="ml-1 group-hover:translate-x-1 group-hover:-translate-y-1 transition self-center"
+            />
+          </a>
+          <hr />
+          <p className="text-lg">Master of Computer Science</p>
+          <p>January 2025 – May 2026</p>
+        </div>
+
+        <div className="w-full divide-current mb-8">
           <a
             href="https://www.northeastern.edu/"
             className="flex flex-row group w-fit"
@@ -129,6 +144,38 @@ export default function Home() {
         </div> */}
 
         <div className="w-full divide-current mb-8">
+          <a
+            href="https://www.capitalone.com/"
+            className="flex flex-row group w-fit"
+          >
+            <strong className="text-xl">Capital One</strong>
+            <MdOutlineArrowOutward
+              size={16}
+              className="ml-1 group-hover:translate-x-1 group-hover:-translate-y-1 transition self-center"
+            />
+          </a>
+
+          <hr />
+          <p className="text-lg">Incoming Software Engineer Intern</p>
+        </div>
+
+        <div className="w-full divide-current mb-8">
+          <a
+            href="https://www.klaviyo.com/"
+            className="flex flex-row group w-fit"
+          >
+            <strong className="text-xl">Klaviyo</strong>
+            <MdOutlineArrowOutward
+              size={16}
+              className="ml-1 group-hover:translate-x-1 group-hover:-translate-y-1 transition self-center"
+            />
+          </a>
+
+          <hr />
+          <p className="text-lg">Incoming Software Engineer Co-op</p>
+        </div>
+
+        <div className="w-full divide-current mb-8">
           <a href="https://www.pnnl.gov/" className="flex flex-row group w-fit">
             <strong className="text-xl">
               Pacific Northwest National Laboratory
@@ -153,6 +200,7 @@ export default function Home() {
             <span className="opacity-50 hover:opacity-100">GitLab</span>
           </p>
         </div>
+
         <div className="w-full divide-current mb-8">
           <a
             href="https://www.instawork.com/"
