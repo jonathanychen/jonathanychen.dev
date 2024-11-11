@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Inter, Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
 
-const font = Montserrat({ subsets: ["latin"] });
+const font = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500"],
+});
 
 export const metadata: Metadata = {
   title: "Jonathan Chen",

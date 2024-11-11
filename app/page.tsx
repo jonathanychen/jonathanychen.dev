@@ -90,7 +90,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col w-[77vw] md:w-[80vw] lg:w-[50vw] lg:pl-[1vw] lg:h-fit lg:border-current lg:border-l-2">
+      <div className="flex flex-col w-[77vw] md:w-[80vw] lg:w-[50vw] lg:pl-[1vw] lg:h-fit lg:border-current lg:border-l-[1px]">
         <div className="text-lg -top-[10vw]" id="education">
           EDUCATION
         </div>
@@ -130,18 +130,6 @@ export default function Home() {
         <div className="text-lg -top-[10vw]" id="experience">
           EXPERIENCE
         </div>
-
-        {/* <div className="w-full divide-current mb-8" id="experience">
-          <a href="https://www.capitalone.com/" className="flex flex-row group">
-            <strong className="text-xl">Capital One</strong>
-            <MdOutlineArrowOutward
-              size={16}
-              className="ml-1 group-hover:translate-x-1 group-hover:-translate-y-1 transition self-center"
-            />
-          </a>
-          <hr />
-          <p className="text-lg">Incoming Software Engineer Intern</p>
-        </div> */}
 
         <div className="w-full divide-current mb-8">
           <a
