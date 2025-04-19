@@ -10,6 +10,14 @@ const font = EB_Garamond({
 export default function OneYear() {
   const introText = useTypewriter(INTRO, 75);
 
+  useEffect(() => {
+    if (introText == INTRO) {
+      setTimeout(() => {
+        // Trigger fade in of "scroll down!"
+      }, 2000);
+    }
+  }, [introText]);
+
   return (
     <main className={font.className}>
       <div className="flex justify-center h-screen w-screen">
@@ -36,7 +44,6 @@ function useTypewriter(completeText: string, interval: number) {
   useEffect(() => {
     if (text.length < completeText.length) {
       const curr = text.length;
-      console.log(completeText.charAt(curr));
       if (completeText.charAt(curr - 1) == ".") {
         setTimeout(
           () => setText(completeText.substring(0, curr + 1)),
