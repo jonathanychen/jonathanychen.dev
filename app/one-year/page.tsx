@@ -15,7 +15,7 @@ export default function OneYear() {
 
   const introText = useTypewriter(INTRO, start);
 
-  const audio = new Audio("/one-year/background.mp3")
+  const audio = typeof Audio != "undefined" ? new Audio("/one-year/background.mp3") : undefined;
 
   useEffect(() => {
     if (introText == INTRO) {
@@ -31,7 +31,7 @@ export default function OneYear() {
         <h1 className="self-center mb-16">to: erin</h1>
         <h1 className="self-center h-fit text-2xl transition hover:opacity-50 hover:cursor-pointer" onClick={() => {
           setStart(true)
-          audio.play()
+          audio?.play()
         }}>click me!</h1>
         <h1 className="self-center mt-16">(sound on!)</h1>
       </div>}
@@ -51,7 +51,7 @@ export default function OneYear() {
 
           <div className="flex flex-col mt-8">
             <h2 className="mb-4"><strong>spring 2024!</strong></h2>
-            <p>what a start to our relationship! from a rescheduled mfa date (my bad), to a short aquarium excursion, to building our first legos. it's so funny how we got here.</p>
+            <p>what a start to our relationship! from a rescheduled mfa date (my bad), to a short aquarium excursion, to building our first legos. it&apos;s so funny how we got here.</p>
           </div>
         </div>
 
@@ -74,7 +74,7 @@ export default function OneYear() {
 
           <div className="flex flex-col mt-8">
             <h2 className="mb-4"><strong>seattle!</strong></h2>
-            <p>the absolute highlight of my summer in seattle. a week of nothing but each other, but i really couldn't get tired of it. our little coffee trips, the 4th of july fireworks, the lazy days of watching chick flicks, and even rein haus (lol) were so so fun just because you were there. thank u so much for visiting me that summer.
+            <p>the absolute highlight of my summer in seattle. a week of nothing but each other, but i really couldn&apos;t get tired of it. our little coffee trips, the 4th of july fireworks, the lazy days of watching chick flicks, and even rein haus (lol) were so so fun just because you were there. thank u so much for visiting me that summer.
             </p>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function OneYear() {
 
           <div className="flex flex-col mt-8">
             <h2 className="mb-4"><strong>providence!</strong></h2>
-            <p>but even though we were busy, of course we had to take a trip! although short, this was a much needed break from school in boston. it felt so peaceful being able to just walk around providence and relax, even though it's only an hour away by train. if we ever need a short retreat, let's go back :)
+            <p>but even though we were busy, of course we had to take a trip! although short, this was a much needed break from school in boston. it felt so peaceful being able to just walk around providence and relax, even though it&apos;s only an hour away by train. if we ever need a short retreat, let&apos;s go back :)
             </p>
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function OneYear() {
 
           <div className="flex flex-col mt-8">
             <h2 className="mb-4"><strong>spring 2025!</strong></h2>
-            <p>our last semester of school (sort of). despite us having pretty different yet busy schedules, i'm so happy with how we make time, no matter whether it's a spontaneous meetup after class or work, or a planned excursion on the weekend. it seems we do something new every week!
+            <p>our last semester of school (sort of). despite us having pretty different yet busy schedules, i&apos;m so happy with how we make time, no matter whether it&apos;s a spontaneous meetup after class or work, or a planned excursion on the weekend. it seems we do something new every week!
             </p>
           </div>
         </div>
@@ -122,7 +122,7 @@ export default function OneYear() {
 
           <div className="flex flex-col mt-8">
             <h2 className="mb-4"><strong>nyc!</strong></h2>
-            <p>this trip really can't be beat. such such good food, sights, and company :). there's really not much more to say, i can't wait to go back with you again.
+            <p>this trip really can&apos;t be beat. such such good food, sights, and company :). there&apos;s really not much more to say, i can&apos;t wait to go back with you again.
             </p>
           </div>
         </div>
