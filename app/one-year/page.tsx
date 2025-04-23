@@ -15,7 +15,7 @@ export default function OneYear() {
 
   const introText = useTypewriter(INTRO, start);
 
-  const audio = new Audio("/one-year/background.mp3")
+  const audio = typeof Audio != "undefined" ? new Audio("/one-year/background.mp3") : undefined;
 
   useEffect(() => {
     if (introText == INTRO) {
@@ -31,7 +31,7 @@ export default function OneYear() {
         <h1 className="self-center mb-16">to: erin</h1>
         <h1 className="self-center h-fit text-2xl transition hover:opacity-50 hover:cursor-pointer" onClick={() => {
           setStart(true)
-          audio.play()
+          audio?.play()
         }}>click me!</h1>
         <h1 className="self-center mt-16">(sound on!)</h1>
       </div>}
